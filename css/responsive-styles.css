@@ -1,0 +1,136 @@
+@media (max-width: 992px) {
+  .social-nav {
+    display: none;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .dynamic-card {
+    width: 14rem;
+    height: 420px;
+    padding: 0 0 0 0;
+  }
+
+  .first-heading {
+    margin-top: 50px;
+  }
+
+  .second-heading {
+    padding-bottom: 9px;
+    color: #ec5242;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-links .container {
+    flex-direction: row-reverse;
+  }
+
+  .navbar-links .logo {
+    display: none;
+  }
+
+  .navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin: 5px;
+  }
+
+  .bordered {
+    width: 200px;
+    border: 2px solid #ec5242;
+  }
+
+  #home {
+    background:
+      linear-gradient(
+        0deg,
+        rgb(245 245 245 / 94%),
+        rgb(235 235 235 / 95%)
+      ),
+      url(./Images/Bg.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+  }
+
+  .text-headlines {
+    margin-left: 28px;
+  }
+
+  .footer-section .footer-logo {
+    padding-top: 20px;
+  }
+
+  .first-heading {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    overflow: hidden;
+  }
+
+  .second-heading {
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .third-heading {
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #fff;
+  }
+
+  .card {
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+  }
+
+  .partner-icons {
+    font-size: 50px;
+    color: #fff;
+    justify-content: center;
+    padding: 20px 0 20px 100px;
+  }
+
+  .footer-logo img {
+    margin-top: 0;
+    padding-top: 37px;
+    width: 166px;
+    height: 100px;
+  }
+
+  .footer-text-heading {
+    padding-top: 10px;
+    color: #414246;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .footer-text {
+    padding-top: 0;
+    color: #414246;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .footer-section {
+    padding-bottom: 0;
+  }
+
+  .dynamic-card {
+    width: 14rem;
+    height: 420px;
+    margin: 0;
+    border: 1px solid #414246;
+  }
+}

@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.about-section {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)),
+    url(/Capstone-Project/assets/Ellipse.svg),
+    url(/Capstone-Project/assets/checkbox.svg),
+    url(/Capstone-Project/assets/patt.svg);
+  background-repeat: no-repeat;
+  background-position:
+    center,
+    bottom 58% left 9rem,
+    right 18rem top 78%,
+    top 28% right 90rem,
+    top 20% center,
+    top 80% center;
+  background-size: 100%, 6rem, 7rem, 4rem, 6rem, 14rem;
+  background-attachment: fixed;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+}
+
+.about-title h1 {
+  text-align: center;
+  color: #cb4633;
+  font-weight: 900;
+  padding: 50px 0;
+  font-size: 50px;
+  width: 50%;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-description {
+  text-align: center;
+  width: 50%;
+  background-color: #fff;
+  padding: 70px 50px;
+  margin: auto;
+}
+
+.about-mail-id {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 70px 50px;
+}
+
+.software-skill {
+  text-align: center;
+}
+
+.software-skill h1 {
+  padding: 60px 0 30px 0;
+  color: #272a31;
+  font-weight: 900;
+}
+
+.software-skill p {
+  color: #949494;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.software-skill img {
+  width: 400px;
+  height: 300px;
+  outline: 0.11875rem solid #dbdde2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.our-placements {
+  text-align: center;
+}
+
+.our-placements h1 {
+  padding: 60px 0 30px 0;
+  color: #272a31;
+  font-weight: 900;
+}
+
+.our-placements p {
+  color: #949494;
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+.twoImageBoxes h1,
+h4 {
+  color: #fff;
+}
+
+.placement-left {
+  background: #cb4633;
+  background:
+    linear-gradient(rgba(240, 240, 240, 0.39), rgba(241, 0, 0, 0.589)),
+    url("../Images/Top-developer-skilles-2021.jpg");
+  background-size: cover;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 270px;
+}
+
+.placement-right {
+  background: #cb4633;
+  background:
+    linear-gradient(rgba(240, 240, 240, 0.39), rgba(241, 0, 0, 0.589)),
+    url("../Images/Sop-dev-2.webp");
+  background-size: cover;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 270px;
+}
+
+@media (max-width: 768px) {
+  .about-description {
+    width: 90%;
+    padding: 50px 30px;
+  }
+
+  .about-mail-id {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .software-skill img {
+    width: 350px;
+    height: 250px;
+    outline: 0.11875rem solid #dbdde2;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .about-title h1 {
+    text-align: center;
+    color: #cb4633;
+    font-weight: 700;
+    padding: 50px 0;
+    font-size: 30px;
+    width: 100%;
+  }
+}

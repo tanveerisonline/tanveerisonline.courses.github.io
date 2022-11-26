@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.social-nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 150px;
+}
+
+ul li {
+  display: contents;
+  list-style: none;
+  text-decoration: dotted;
+}
+
+li a {
+  color: #fbfbfb;
+  margin-right: 20px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.navbar-links {
+  border: 1px solid #8d8d8d;
+  width: 100%;
+  align-items: baseline;
+}
+
+.more-options a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar-links li a {
+  font-size: 20px;
+  color: #8d8d8d;
+  margin-right: 30px;
+}
+
+.navbar-links li a:hover {
+  color: #ec5242;
+}
+
+.bordered {
+  border: 4px solid #ec5242;
+  color: #ec5242;
+}
+
+#txt-color {
+  color: #ec5242;
+  font-weight: 600;
+}
+
+#txt {
+  color: #ec5242;
+  padding: 5px;
+}
+
+#home {
+  background:
+    linear-gradient(
+      0deg,
+      rgb(245 245 245 / 94%),
+      rgb(235 235 235 / 95%)
+    ),
+    url(../Images/Bg.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-size: 100% 100%;
+  width: 100%;
+}
+
+.text-headlines {
+  margin-left: 50px;
+}
+
+.first-heading {
+  margin-top: 130px;
+  padding-bottom: 33px;
+  color: #ec5242;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.second-heading {
+  padding-bottom: 33px;
+  color: #ec5242;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 70px;
+  overflow: hidden;
+}
+
+.third-heading {
+  color: #ec5242;
+  border: 3px solid #fff;
+  padding: 10px;
+}
+
+.cards-section {
+  background-image: url(./Images/Ah-bg.webp);
+  background-repeat: repeat;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #262932;
+}
+
+.card-heading-text {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 24px;
+  padding: 40px 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #262932a2;
+}
+
+.main-row {
+  margin: 0 100px auto auto;
+}
+
+.cards-container .card {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card:hover {
+  border: 2px solid #fff;
+}
+
+.icons {
+  font-size: 60px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.card-title {
+  color: #ec5242;
+}
+
+.card-text {
+  color: #fff;
+}
+
+.more-options {
+  margin-top: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.course-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.partners {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #262932;
+  width: 100%;
+  min-height: 250px;
+}
+
+.partners-title h1 {
+  color: #707070;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.partner-icons {
+  font-size: 60px;
+  color: #fff;
+  justify-content: center;
+  padding: 60px 0 60px 100px;
+}
+
+.footer-section {
+  display: flex;
+  align-items: flex-start;
+  height: auto;
+  background-color: #f2f2f2;
+  padding-bottom: 50px;
+}
+
+.footer-logo img {
+  margin-top: 45px;
+  padding-top: 35px;
+  width: 200px;
+  height: 110px;
+}
+
+.footer-text-heading {
+  padding-top: 50px;
+  color: #414246;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.footer-text {
+  padding-top: 0;
+  color: #414246;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.courses {
+  height: auto;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.language-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.dynamic-card {
+  width: 18rem;
+  height: 390px;
+  background-color: #fff;
+  border: 1px solid #414246;
+}
+
+.course-card-title {
+  color: #ec5242;
+  font-weight: 800;
+}
+
+.course-card-description {
+  color: #262932;
+  font-weight: 400;
+}
